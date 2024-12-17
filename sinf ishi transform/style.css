@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+
+
+.box1 {
+    transition: ease 2s;
+}
+
+.box1:hover {
+    transform: translate(1500px);
+
+} 
